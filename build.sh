@@ -1,6 +1,7 @@
 #!/bin/bash
 
-git clone https://github.com/flyniu666/PowerGraph-build.git
+yum install make automake gcc gcc-c++ openmpi opemmpi-dev cmake zlib -y
+
 git clone https://github.com/graphlab-code/graphlab.git
 
 rm -f graphlab/CMakeLists.txt
